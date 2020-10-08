@@ -46,19 +46,21 @@ public class Solution {
 
     public static void main(String[] args) {
 
-        int[] array1 = {1, 3, 6, 4, 1, 2};
-        int[] array2 = {-1,-3,-4,-6,-3,-2,-1,-1,-1,-6,-6,-2};
-        int[] array3 = {-1,3,2};
-        int[] array4 = {1,2,3};
-        int[] array5 = {0,1,3,4,5,};
-        int[] array6 = {-10,-21,-258,321545,-654687, 1,3};
+      //Example arrays 
+      int[] array1 = {1, 3, 6, 4, 1, 2};
+      int[] array2 = {-1,-3,-4,-6,-3,-2,-1,-1,-1,-6,-6,-2};
+      int[] array3 = {-1,3,2};
+      int[] array4 = {1,2,3};
+      int[] array5 = {0,1,3,4,5,};
+      int[] array6 = {-10,-21,-258,321545,-654687, 1,3};
         
-        System.out.println(Solution.solution(array1));
-        System.out.println(Solution.solution(array2));
-        System.out.println(Solution.solution(array3));
-        System.out.println(Solution.solution(array4));
-        System.out.println(Solution.solution(array5));
-        System.out.println(Solution.solution(array6));
+      System.out.println(Solution.solution(array1));
+      System.out.println(Solution.solution(array2));
+      System.out.println(Solution.solution(array3));
+      System.out.println(Solution.solution(array4));
+      System.out.println(Solution.solution(array5));
+      System.out.println(Solution.solution(array6));
+    
     }
 
 
